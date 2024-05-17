@@ -84,8 +84,8 @@ class Auth extends CI_Controller
         include_once APPPATH . 'libraries/google-client/Google_Client.php';
         include_once APPPATH . 'libraries/google-client/contrib/Google_Oauth2Service.php';
 
-        $client_id = 'YOUR_CLIENT_ID'; // Google client ID
-        $client_secret = 'YOUR_CLIENT_SECRET'; // Google Client Secret
+        $client_id = 'YOUR_CLIENT-ID'; // Google client ID
+        $client_secret = 'YOUR_CLIENT-SECRET'; // Google Client Secret
         $redirect_url = base_url('auth/login_google'); // Callback URL
 
         // Call Google API
