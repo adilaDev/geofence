@@ -94,7 +94,7 @@ define('NAMA_ARI ', 'Asia Research Institute');
 
 define('api_key_gmap', 'YOUR_API_GMAP');
 define('token_mapbox', 'YOUR_TOKEN_MAPBOX');
-define('style_japan', 'mapbox://styles/asiaresearch/cl9gg1jve000d14o6f8t83vcd');
+define('style_japan', 'mapbox://styles/asiaresearch/YOUR_TOKEN_MAPBOX');
 define('G_AUTH_client_id', 'YOUR_AUTH_CLIENT_ID');
 define('G_AUTH_client_secret', 'YOUR_AUTH_CLIENT_SECRET');
 define('secret_key_aes_old', 'SECRET_KEY');
