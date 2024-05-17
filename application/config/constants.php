@@ -92,10 +92,10 @@ define('URL_WEB', 'http://localhost/geofence/');
 define('ARI ', 'Asia Research Institute');
 define('NAMA_ARI ', 'Asia Research Institute');
 
-define('api_key_gmap', 'AIzaSyDqRYyf2UD8U7Ow80y7Un-MmfBt4HHGpTM');
-define('token_mapbox', 'pk.eyJ1IjoiYXNpYXJlc2VhcmNoIiwiYSI6ImNrY211eG10dDAzZGEyc28yeGlwYTh5bHUifQ.l9-iLbSNuCYulPNGr5ux9A');
+define('api_key_gmap', 'YOUR_API_GMAP');
+define('token_mapbox', 'YOUR_TOKEN_MAPBOX');
 define('style_japan', 'mapbox://styles/asiaresearch/cl9gg1jve000d14o6f8t83vcd');
-define('G_AUTH_client_id', '353489683098-a4ma4kjp9qmvmmg91vqc77ut13jv1pc1.apps.googleusercontent.com');
-define('G_AUTH_client_secret', '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');
-define('secret_key_aes_old', 'U2FsdGVkX1+9Tfel78YZf+2aOox34PLX9AWgkFi1GaQ='); // artinya => Ariindonesia123
-define('secret_key_aes', 'U2FsdGVkX19yS+ZVR8L/wiq3IigfSgJUtCvgor4yUv4='); // artinya => tRyAg4!N http://localhost/loketechku/aes/ key: Ariindonesia123
+define('G_AUTH_client_id', 'YOUR_AUTH_CLIENT_ID');
+define('G_AUTH_client_secret', 'YOUR_AUTH_CLIENT_SECRET');
+define('secret_key_aes_old', 'SECRET_KEY');
+define('secret_key_aes', 'SECRET_KEY');
