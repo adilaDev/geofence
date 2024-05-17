@@ -1,0 +1,22 @@
+.SumoSelect>.CaptionCont.dark-mode,
+.SumoSelect>.optWrapper.dark-mode,
+.SumoSelect.open>.optWrapper.dark-mode,
+.SumoSelect .no-match.dark-mode,
+.SumoSelect.open .search-txt.dark-mode,
+.SumoSelect .select-all.dark-mode,
+.SumoSelect>.optWrapper.multiple.okCancelInMulti>.MultiControls.dark-mode {
+    background-color: #2a3042 !important;
+}
+
+.SumoSelect>.optWrapper.dark-mode>.options li.opt.selected {
+    background-color: #484d5c !important;
+}
+
+.SumoSelect>.optWrapper.dark-mode>.options li.opt.disabled {
+    background-color: #242836;
+}
+
+.SumoSelect>.optWrapper.dark-mode>.options li.opt:hover,
+.SumoSelect>.optWrapper.multiple.okCancelInMulti>.MultiControls.dark-mode>p:hover {
+    background-color: #222736;
+}

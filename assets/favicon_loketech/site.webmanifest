@@ -1,0 +1,15 @@
+{
+    "name": "Location Technology",
+    "short_name": "Location Technology",
+    "icons": [
+        {
+            "src": "https://showbiz.locationtech.jp/assets/favicon/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://showbiz.locationtech.jp/",
+    "display": "standalone"
+}

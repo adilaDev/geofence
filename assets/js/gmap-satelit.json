@@ -1,0 +1,27 @@
+{
+    "version": 8,
+    "sources": {
+        "mapbox-satellite": {
+            "type": "raster",
+            "tiles": [
+                "https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=YOUR_ACCESS_TOKEN"
+            ],
+            "tileSize": 256
+        }
+    },
+    "layers": [{
+            "id": "background",
+            "type": "background",
+            "paint": {
+                "background-color": "#ffffff"
+            }
+        },
+        {
+            "id": "satellite",
+            "type": "raster",
+            "source": "mapbox-satellite",
+            "minzoom": 0,
+            "maxzoom": 22
+        }
+    ]
+}

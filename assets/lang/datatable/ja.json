@@ -1,0 +1,243 @@
+{
+    "emptyTable": "テーブルに利用可能なデータがありません",
+    "info": "_TOTAL_ 件中 _START_ から _END_ まで表示",
+    "infoEmpty": "0 件中 0 から 0 まで表示",
+    "infoFiltered": "（合計 _MAX_ 件からフィルタリング）",
+    "infoThousands": ",",
+    "lengthMenu": "_MENU_ 件を表示",
+    "loadingRecords": "読み込み中...",
+    "processing": "処理中...",
+    "search": "検索:",
+    "zeroRecords": "一致するレコードが見つかりません",
+    "thousands": ",",
+    "paginate": {
+        "first": "最初",
+        "last": "最後",
+        "next": "次へ",
+        "previous": "前へ"
+    },
+    "aria": {
+        "sortAscending": ": 昇順で列をソートするにはクリック",
+        "sortDescending": ": 降順で列をソートするにはクリック"
+    },
+    "autoFill": {
+        "cancel": "キャンセル",
+        "fill": "すべてのセルに <i>%d</i> を入力",
+        "fillHorizontal": "セルを水平に入力",
+        "fillVertical": "セルを垂直に入力"
+    },
+    "buttons": {
+        "collection": "コレクション <span class='ui-button-icon-primary ui-icon ui-icon-triangle-1-s'/>",
+        "colvis": "列の表示",
+        "colvisRestore": "表示を元に戻す",
+        "copy": "コピー",
+        "copyKeys": "テーブルデータをクリップボードにコピーするには、CtrlまたはCmd + Cを押してください。<br><br>キャンセルするには、このメッセージをクリックするか、Escapeキーを押してください。",
+        "copySuccess": {
+            "1": "1 行をクリップボードにコピーしました",
+            "_": "%d 行をクリップボードにコピーしました"
+        },
+        "copyTitle": "クリップボードにコピー",
+        "csv": "CSV",
+        "excel": "Excel",
+        "pageLength": {
+            "-1": "すべての行を表示",
+            "_": "%d 行を表示"
+        },
+        "pdf": "PDF",
+        "print": "印刷",
+        "updateState": "更新",
+        "stateRestore": "状態 %d",
+        "savedStates": "保存された状態",
+        "renameState": "名前の変更",
+        "removeState": "削除",
+        "removeAllStates": "すべての状態を削除",
+        "createState": "新しい状態を作成"
+    },
+    "searchBuilder": {
+        "add": "条件を追加",
+        "button": {
+            "0": "検索ビルダー",
+            "_": "検索ビルダー (%d)"
+        },
+        "clearAll": "すべてクリア",
+        "condition": "条件",
+        "conditions": {
+            "date": {
+                "after": "以降",
+                "before": "以前",
+                "between": "の間",
+                "empty": "空",
+                "equals": "と等しい",
+                "not": "でない",
+                "notBetween": "の間ではない",
+                "notEmpty": "空ではない"
+            },
+            "number": {
+                "between": "の間",
+                "empty": "空",
+                "equals": "と等しい",
+                "gt": "より大きい",
+                "gte": "以上",
+                "lt": "より小さい",
+                "lte": "以下",
+                "not": "でない",
+                "notBetween": "の間ではない",
+                "notEmpty": "空ではない"
+            },
+            "string": {
+                "contains": "含む",
+                "empty": "空",
+                "endsWith": "で終わる",
+                "equals": "と等しい",
+                "not": "でない",
+                "notEmpty": "空ではない",
+                "startsWith": "で始まる",
+                "notContains": "含まない",
+                "notStartsWith": "で始まらない",
+                "notEndsWith": "で終わらない"
+            },
+            "array": {
+                "without": "なし",
+                "notEmpty": "空ではない",
+                "not": "でない",
+                "contains": "含む",
+                "empty": "空",
+                "equals": "と等しい"
+            }
+        },
+        "data": "データ",
+        "deleteTitle": "フィルタリングルールの削除",
+        "leftTitle": "条件を減らす",
+        "logicAnd": "かつ",
+        "logicOr": "または",
+        "rightTitle": "条件を増やす",
+        "title": {
+            "0": "検索ビルダー",
+            "_": "検索ビルダー (%d)"
+        },
+        "value": "値"
+    },
+    "searchPanes": {
+        "clearMessage": "すべてクリア",
+        "collapse": {
+            "0": "サーチペイン",
+            "_": "サーチペイン (%d)"
+        },
+        "count": "{total}",
+        "countFiltered": "{shown}（合計 {total} ）",
+        "emptyPanes": "サーチペインがありません",
+        "loadMessage": "サーチペインの読み込み中",
+        "title": "フィルターがアクティブ - %d",
+        "showMessage": "すべて表示",
+        "collapseMessage": "すべて折りたたむ"
+    },
+    "select": {
+        "cells": {
+            "1": "1 セルが選択されました",
+            "_": "%d セルが選択されました"
+        },
+        "columns": {
+            "1": "1 列が選択されました",
+            "_": "%d 列が選択されました"
+        },
+        "rows": {
+            "1": "1 行が選択されました",
+            "_": "%d 行が選択されました"
+        }
+    },
+    "datetime": {
+        "previous": "前へ",
+        "next": "次へ",
+        "hours": "時間",
+        "minutes": "分",
+        "seconds": "秒",
+        "unknown": "-",
+        "amPm": [
+            "午前",
+            "午後"
+        ],
+        "weekdays": [
+            "日",
+            "月",
+            "火",
+            "水",
+            "木",
+            "金",
+            "土"
+        ],
+        "months": [
+            "1月",
+            "2月",
+            "3月",
+            "4月",
+            "5月",
+            "6月",
+            "7月",
+            "8月",
+            "9月",
+            "10月",
+            "11月",
+            "12月"
+        ]
+    },
+    "editor": {
+        "close": "閉じる",
+        "create": {
+            "button": "新規作成",
+            "title": "新しいエントリを作成",
+            "submit": "作成"
+        },
+        "edit": {
+            "button": "編集",
+            "title": "エントリの編集",
+            "submit": "更新"
+        },
+        "remove": {
+            "button": "削除",
+            "title": "削除",
+            "submit": "削除",
+            "confirm": {
+                "1": "1 行を削除しますか？",
+                "_": "%d 行を削除しますか？"
+            }
+        },
+        "error": {
+            "system": "システムエラーが発生しました (<a target=\"_blank\" rel=\"nofollow\" href=\"#\">詳細情報</a>)。"
+        },
+        "multi": {
+            "title": "複数の値",
+            "info": "選択したアイテムにはこの入力の異なる値が含まれています。これらをすべて同じ値に編集して設定するには、ここをクリックまたはタップしてください。それ以外の場合は個々の値を保持します。",
+            "restore": "変更を元に戻す",
+            "noMulti": "この入力は個別に編集できますが、グループの一部ではありません。"
+        }
+    },
+    "stateRestore": {
+        "renameTitle": "状態の名前変更",
+        "renameLabel": "%s の新しい名前：",
+        "renameButton": "名前の変更",
+        "removeTitle": "状態の削除",
+        "removeSubmit": "削除",
+        "removeJoiner": " および ",
+        "removeError": "状態の削除に失敗しました。",
+        "removeConfirm": "%s を削除しますか？",
+        "emptyStates": "保存された状態がありません",
+        "emptyError": "名前は空にできません。",
+        "duplicateError": "この名前の状態は既に存在します。",
+        "creationModal": {
+            "toggleLabel": "含む:",
+            "title": "新しい状態を作成",
+            "select": "選択",
+            "searchBuilder": "検索ビルダー",
+            "search": "検索",
+            "scroller": "スクロール位置",
+            "paging": "ページング",
+            "order": "並び替え",
+            "name": "名前：",
+            "columns": {
+                "visible": "列の表示",
+                "search": "列の検索"
+            },
+            "button": "作成"
+        }
+    }
+}

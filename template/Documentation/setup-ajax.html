@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Setup | Skote - Responsive Bootstrap 5 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Skote Premium Multipurpose Admin & Dashboard Template documentation of PHP Ajax Codeigniter" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <meta name="keywords" content="Skote admin documentation, Skote PHP Ajax Codeigniter documentation, Skote documentation">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-topbar="dark" data-spy="scroll" data-target=".right-side-nav" data-offset="175">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-light.svg" alt="" height="25">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="20">
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect d-lg-none" id="vertical-menu-btn">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                </div>
+
+                <div class="d-flex">
+
+
+                    <div class="">
+                        <a href="https://themeforest.net/item/skote-admin-dashboard-template/29634452/support" target="_blank" class="header-item">Support</a>
+                    </div>
+
+                    <div class="d-md-inline-block">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiP9bDHzIQdQoMXFrYvJx00wyFzSu_cqBWP0N0uUHpqjrbzQ/viewform" target="_blank" class="header-item">Need Customization?</a>
+                    </div>
+
+                    <div class="">
+                        <a href="https://1.envato.market/skote-multi" target="_blank" class="header-item">Buy Now</a>
+                    </div>
+
+                    <div class="d-inline-block">
+                        <h5 class="header-item m-0"><span class="badge badge-danger">v3.3.0</span></h5>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Docs</li>
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="mdi mdi-text-box-outline"></i>
+                                <span>Introduction</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="setup.html" class=" waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                                <span>Setup Codeigniter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="setup-php.html" class=" waves-effect">
+                                <i class="mdi mdi-language-php"></i>
+                                <span>Setup PHP</span>
+                            </a>
+                        </li>
+                
+                        <li>
+                            <a href="setup-ajax.html" class=" waves-effect">
+                                <i class="mdi mdi-language-javascript"></i>
+                                <span>Setup Ajax</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Themes</li>
+
+                        <li>
+                            <a href="light.html" class=" waves-effect">
+                                <i class="mdi mdi-white-balance-sunny"></i>
+                                <span>Light Version</span>
+                            </a>
+                        </li>
+                
+                        <li>
+                            <a href="dark.html" class=" waves-effect">
+                                <i class="mdi mdi-weather-night"></i>
+                                <span>Dark Version</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="rtl.html" class=" waves-effect">
+                                <i class="mdi mdi-web"></i>
+                                <span>RTL Version</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-title">Other</li>
+
+                        <li>
+                            <a href="changelog.html" class=" waves-effect">
+                                <i class="mdi mdi-format-list-bulleted"></i>
+                                <span>Changelog</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <div class="p-lg-1">
+
+                                        <div class="d-xl-flex">
+
+                                            <div class="w-100">
+
+                                                <h4 class="mt-0 mb-4">Setup Ajax</h4>
+
+                                                <div id="desc" class="mb-5">
+                                                    <h5 class="mt-4">Introduction</h5>
+                                                    <p>
+                                                        Skote – Ajax is a simple and beautiful admin template built with Bootstrap 5.1.3 and jQuery Ajax. It has 7+ different layouts and 3 modes ( Dark, Light & RTL ). You can simply change to any layouts or modes by changing a couple of lines code. You can start small and large projects or update design in your existing project using Skote Ajax. It is very quick and easy as it is beautiful, adroit, and delivers the ultimate user experience.
+                                                    </p>
+                                                </div>
+
+                                                <div id="structure" class="mb-5">
+                                                    <h5 class="mt-0 mb-2">📁 Folder & Files Structure</h5>
+
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <p class="text-muted mb-4">
+                                                                <strong>PHP</strong>
+                                                            </p>
+
+                                                            <pre class="mb-0">
+├── Ajax
+    ├── ajax directory
+    ├── assets directory
+        ├── css
+        ├── fonts
+        ├── images
+        ├── js
+        ├── lang
+        └── libs
+    └── All html pages
+</pre>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="server" class="mb-5">
+                                                    <h5 class="mt-4">Server Requirements</h5>
+
+                                                    <p>
+                                                        Need WAMP or LAMP or XAMPP or NGINX or Apache setup on your server or machine.
+                                                    </p>
+                                                </div>
+
+                                                <!-- Layout start -->
+                                                <div id="menu-item" class="mb-5">
+                                                    <h5 class="mt-0 mb-2 font-size-18"><i class="mdi mdi-star text-warning"></i> How to add-new/change menu items?</h5>
+                                                    <p>
+                                                        To add, change or remove menu items from the
+                                                            left side navigation, simply edit in the
+                                                            <code>index.html</code>  file.
+                                                    </p>
+                                                </div>
+
+                                                <div id="pre-built-layouts">
+
+                                                    <div class="row mb-2 mt-3">
+                                                        <div class="col">
+                                                            <h5 class="mt-0 mb-2 font-size-18"><i class="mdi mdi-star text-warning"></i> How to use pre-built
+                                                                layouts?</h5>
+                                                            <p>
+                                                                For <b>Vertical</b> layout, Each of the layout options is provided below with
+                                                                steps you would need to perform in the <code>index.html</code> file:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-1.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Light Sidebar & Topbar
+                                                                    Dark</h5>
+                                                                Remove data attribute
+                                                                <code>data-sidebar="dark"</code> body element to
+                                                                have light sidebar. Add data attribute
+                                                                <code>data-topbar="dark"</code> body element to have a
+                                                                dark topbar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-2.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Compact Sidebar</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-sidebar-size="small"</code> i.e.
+                                                                <code> &lt;body data-sidebar-size="small"&gt;</code>
+                                                                to have small sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-3.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Icon Sidebar</h5>
+                                                                Keep your body element with class
+                                                                <code>vertical-collpsed"</code> i.e.
+                                                                <code> &lt;body class="vertical-collpsed"&gt;</code>
+                                                                to have icon sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/vertical-4.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Boxed Layout</h5>
+                                                                Keep your body element with class
+                                                                <code>vertical-collpsed</code> and data attribute
+                                                                <code>data-layout-size="boxed" data-keep-enlarged="true"</code>
+                                                                i.e.
+                                                                <code> &lt;body class="vertical-collpsed" data-layout-size="boxed" data-keep-enlarged="true"&gt;</code>
+                                                                to have boxed layout with icon view sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/vertical-5.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Colored Sidebar</h5>
+                                                                Keep your body element with data attribute
+                                                                <code>data-topbar="colored"</code> i.e.
+                                                                <code> &lt;body data-topbar="colored"&gt;</code> to
+                                                                have colored sidebar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/vertical-6.png" alt="image" class="img-fluid shadow">
+                                                                <h5 class="font-size-16 mt-3">Scrollable</h5>
+                                                                Keep your body element with data attribute <code>data-layout-scrollable="true"</code> i.e. <code> &lt;body data-layout-scrollable="true" &gt;</code> to have scrollable layout.
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/vertical-6.png"
+                                                                    alt="image" class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Preloader</h5>
+                                                                In order to add pre-loader in your page, include
+                                                                following html after <code>body</code> element.
+                                                                <code>&lt;div id=&quot;preloader&quot;&gt;
+                                                                        &lt;div id=&quot;status&quot;&gt;
+                                                                            &lt;div class=&quot;spinner-chase&quot;&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                                &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;/div&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;</code>
+                                                            </div>
+                                                        </div> <!-- end col -->
+                                                    
+                                                    </div>
+                                                    <!-- end row -->
+                                                    <p class="mt-4">
+                                                        For <b>Horizontal</b> layout, Use the structure of the <code>layouts-horizontal.html</code> file. <br/> Each of the layout options is provided below with
+                                                        steps you would need to perform in the <code>layouts-horizontal.html </code>or <code>index.html</code> file:
+                                                    </p>
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/horizontal-2.png" alt="image"
+                                                                    class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Topbar Light</h5>
+                                                                Keep your body element with data attribute <code>data-topbar="light" data-layout="horizontal"</code> i.e. <code> &lt;body data-topbar="light" data-layout="horizontal"&gt;</code> to have light topbar and dark menubar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+                    
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/horizontal-3.png" alt="image"
+                                                                    class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Colored Header</h5>
+                                                                Keep your body element with data attribute <code>data-topbar="colored" data-layout="horizontal"</code> i.e. <code> &lt;body data-topbar="colored" data-layout="horizontal"&gt;</code> to have colored topbar and dark menubar.
+                                                            </div>
+                                                        </div> <!-- end col -->
+                    
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center mb-3">
+                                                                <img src="assets/images/demo/horizontal-4.png" alt="image"
+                                                                    class="img-fluid shadow" />
+                                                                <h5 class="font-size-16 mt-3">Boxed Layout</h5>
+                                                                Keep your body element with data attribute <code>data-layout-size="boxed" data-layout="horizontal"</code> i.e. <code> &lt;body data-layout-size="boxed" data-layout="horizontal"&gt;</code> to have boxed layout.
+                                                            </div>
+                                                        </div> <!-- end col -->
+                    
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/horizontal-1.png" alt="image" class="img-fluid shadow">
+                                                                <h5 class="font-size-16 mt-3">Scrollable</h5>
+                                                                Keep your body element with data attribute <code>data-layout-scrollable="true" data-layout="horizontal"</code> i.e. <code> &lt;body data-layout-scrollable="true" data-layout="horizontal" &gt;</code> to have scrollable layout.
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-4 col-md-6">
+                                                            <div class="border p-3 text-center">
+                                                                <img src="assets/images/demo/horizontal-1.png" alt="image" class="img-fluid shadow"/>
+                                                                <h5 class="font-size-16 mt-3">Preloader</h5>
+                                                                In order to add pre-loader in your page, include following html after <code>body</code> element.
+                                                                    <code>&lt;div id=&quot;preloader&quot;&gt;
+                                                                    &lt;div id=&quot;status&quot;&gt;
+                                                                        &lt;div class=&quot;spinner-chase&quot;&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                            &lt;div class=&quot;chase-dot&quot;&gt;&lt;/div&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;</code>
+                                                            </div>
+                                                        </div> <!-- end col -->
+                    
+                                                    </div>
+                                                    <!-- end row -->
+
+                                                </div>
+                                                <!-- Layout start end-->
+
+                                                <div id="tips">
+                                                    <h5 class="mt-4">Tips</h5>
+
+                                                    <p>
+                                                        CSS: We suggest you do not change any scss files from the assets/scss/custom folders because to get new updates will break your CSS changes if any you have made. We strongly suggest you create a new custom.css file and use that instead of overwriting any template's custom CSS files.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Start right-side-nav -->
+                                            <div class="d-none d-xl-block">
+                                                <div class="right-side-nav">
+                                                    <ul class="nav nav-pills flex-column">
+                                                        <li class="nav-item">
+                                                            <a href="#desc" class="nav-link">Description</a>
+                                                        </li>                                                        
+                                                        <li class="nav-item">
+                                                            <a href="#structure" class="nav-link">Folder & Files Structure</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#server" class="nav-link">Server Requirements</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#menu-item" class="nav-link">Add new menu items/change
+                                                                menu items</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#pre-built-layouts" class="nav-link">Use pre-built
+                                                                layouts</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#tips" class="nav-link">Tips</a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- End right-side-nav -->
+                                        </div>
+
+                                    </div> <!-- end padding-->
+                                </div> <!-- end card-body-->
+                            </div> <!-- end card-->
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © Themesbrand.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-right d-none d-sm-block">
+                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://themesbrand.com/" target="_blank" class="text-muted">Themesbrand</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/jquery.easing/jquery.easing.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
